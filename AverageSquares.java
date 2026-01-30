@@ -11,13 +11,13 @@ public class AverageSquares {
 
         // Read in line from standard input
         //String name = in.nextLine();
-        in.nextLine();
+        //in.nextLine();
         //System.out.println("Hi " + name + "!");
 
 
         System.out.print("Please enter the start value: ");
         int startNum = in.nextInt(); // Reads in an int from standard input
-        
+        in.nextLine();
         System.out.print("Please enter the end value: ");
         int endNum = in.nextInt();
 
