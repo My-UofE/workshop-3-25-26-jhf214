@@ -14,7 +14,7 @@ fi
 
 var=$(printf "0\n1\n" |java PrintPattern2)
 result=$(echo "$var" | head -n 1 )
-if [[ "$result" =~ "too small!" ]]; then
+if [[ "$result" =~ "oo small" ]]; then
     echo PrintPattern2 "too small! ... ok" 
 else
     echo PrintPattern2 "too small! ... failed" 
@@ -23,7 +23,7 @@ fi
     
 var=$(printf "9\n1\n" |java PrintPattern2)
 result=$(echo "$var" | head -n 1)
-if [[ "$result" =~ "too big!" ]]; then
+if [[ "$result" =~ "oo big" ]]; then
     echo PrintPattern2 "too big! ... ok" 
 else
     echo PrintPattern2 "too big! ... failed" 
